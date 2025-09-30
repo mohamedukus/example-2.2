@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Course</title>
+  <style>
+    body {
+      font-family: "Times New Roman", sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+    }
+
+    header {
+      text-align: center;
+      color: white;
+      padding: 20px;
+      background: linear-gradient(to right, #5c4033, #8b4513, #5c4033);
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    h3 {
+      background-color: RoyalBlue;
+      color: white;
+      font-size: 20px;
+      padding: 15px;
+      margin: 20px 0 0 0;
+      border-radius: 10px;
+    }
+
+    .content {
+      background-color: rgba(128,128,128,0.3);
+      border: 3px solid navy;
+      padding: 15px;
+      margin: 0 0 20px 0;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: white;
+      background: linear-gradient(to right, #8b0000, #daa520, #8b0000);
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+
+    .emoji {
+      font-size: 24px;
+      display: inline-block;
+      opacity: 0.8;
+      animation: move 1.5s infinite alternate;
+    }
+
+.emoj {
+      font-size: 24px;
+      display: inline-block;
+    
+      animation: mov 1.5s infinite alternate;
+    }
+
+    
+    @keyframes move {
+      0% { transform: translateY(0px) rotate(0deg); opacity: 0.8; }
+      100% { transform: translateY(-5px) rotate(-10deg); opacity: 0.6; }
+    }
+@keyframes mov {
+      0% { opacity: 0; }
+  50% { opacity: 0.5; }
+      100% { opacity: 1; }
+    }
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CSS COURSE</h1>
+  </header>
+
+  <section>
+    <h3>Selectors</h3>
+    <div class="content">
+      هي التي تحدد أي عنصر في الصفحة سيتم تطبيق التنسيق عليه. مثال: <code>p { ... }</code>
+    </div>
+
+    <h3>Properties</h3>
+    <div class="content">
+      هي أسماء الخصائص التي نريد تعديلها مثل: <code>color</code> ، <code>font-size</code> ، <code>background-color</code>.
+    </div>
+
+    <h3>Values</h3>
+    <div class="content">
+      هي القيم التي نضعها لكل خاصية مثل: <code>red</code> للون، <code>20px</code> لحجم الخط.
+    </div>
+  </section>
+
+  <footer>
+    تعلم مع محمد في ساعة  
+    <span class="emoji">✒️</span>
+    <span class="emoj">📖</span>
+  </footer>
+
+</body>
+</html>
+
